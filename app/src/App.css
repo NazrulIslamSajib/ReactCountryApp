@@ -1,0 +1,33 @@
+/* Search bar styling */
+.search-bar {
+  display: block;
+  margin: 1rem auto;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  width: 60%;
+  font-size: 1.1rem;
+}
+
+.search-bar:focus {
+  outline: none;
+  border-color: #000;
+  background-color: #f0e68c;
+}
+
+/* Existing styles */
+input {
+  padding: 0.6rem;
+  border-radius: 0.6rem;
+  width: 20rem;
+  font-size: 1.2rem;
+}
+
+input:focus {
+  background-color: bisque;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+}
